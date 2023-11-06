@@ -44,3 +44,6 @@ if __name__ == "__main__":
     root = huffman_encoding(user_input)
     print("Huffman codes:")
     printNodes(root)
+
+# TIME COMPLEXITY IS O(nlogn)
+# SPACE COMPLEXITY IS O(n)
