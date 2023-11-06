@@ -83,3 +83,6 @@ if __name__ == "__main__":
         
         else:
             print("Invalid choice. Please select 1, 2, or 3.")
+
+# Time complexity: O(N!): The first queen has N placements, the second queen must not be in the same column as the first as well as at an oblique angle, so the second queen has N-1 possibilities
+# Spatial Complexity: O(N): Need to use arrays to save information.
