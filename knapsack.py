@@ -46,5 +46,9 @@ def main():
 
     print(f"Total Value: {total_value}")
 
+
+# TIME COMPLEXITY IS = O(nlogn)
+# SPACE COMPLEXITY IS = O(n)
+
 if __name__ == "__main__":
     main()
