@@ -47,3 +47,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# TIME COMPLEXITY IS = O(nW), where nn is the number of items and WW is the maximum weight capacity of the knapsack.
+# SPACE COMPLEXITY IS = O(nW)
