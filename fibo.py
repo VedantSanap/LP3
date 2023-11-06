@@ -49,8 +49,18 @@ fib_sequence = fibonacci(n)
 rec_fib_sequence = fibonacci_recursive(n)
 step_count = fibonacci_step_count(n)
 
+
+
 print("Fibonacci Sequence:")
 print(fib_sequence)
 print("\n")
 print(rec_fib_sequence)
 print("Step Count:", step_count)
+
+# TIME COMPLEXITY FOR ITERATIVE = O(n)
+# SPACE COMPLEXITY FOR ITERATIVE = O(1)
+
+
+# TIME COMPLEXITY FOR ITERATIVE = O(2^n)
+# SPACE COMPLEXITY FOR RECURSIVE = O(n) (due to the recursion stack)
+
